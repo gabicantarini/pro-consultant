@@ -4,10 +4,10 @@
     {
         public int Id { get; set; }
 
-        public string Name { get; set; }
-        public string Document { get; set; }
-        public string Mail { get; set; }
-        public string Mobile { get; set; }
+        public string Name { get; set; } = null!;
+        public string Document { get; set; } = null!;
+        public string Mail { get; set; } = null!;
+        public string Mobile { get; set; } = null!;
         public DateTime BirthDate { get; set; }
 
         //public ICollection<Appointment> MyProperty { get; set; } = new List<Appointment>()
