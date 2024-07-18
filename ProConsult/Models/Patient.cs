@@ -10,6 +10,6 @@
         public string Mobile { get; set; } = null!;
         public DateTime BirthDate { get; set; }
 
-        public ICollection<Appointment> MyProperty { get; set; } = new List<Appointment>();
+        public ICollection<Appointment> Appointment { get; set; } = new List<Appointment>();
     }
 }
