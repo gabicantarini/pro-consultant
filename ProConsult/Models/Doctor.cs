@@ -10,8 +10,8 @@
         public DateTime RegisterDate { get; set; }
         public string SpecialistId { get; set; } = null!;
 
-        //public string Specialist Specialist { get; set; }
+        public Specialist Specialist { get; set; } = null!;
 
-        //public ICollection<Appointment> MyProperty { get; set; } = new List<Appointment>()
+        public ICollection<Appointment> Appointment { get; set; } = new List<Appointment>();
     }
 }
