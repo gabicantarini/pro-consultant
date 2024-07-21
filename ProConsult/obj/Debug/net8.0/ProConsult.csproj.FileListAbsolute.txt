@@ -1,0 +1,7 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Blazor\ProConsult\ProConsult\obj\Debug\net8.0\ProConsult.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Blazor\ProConsult\ProConsult\obj\Debug\net8.0\ProConsult.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Blazor\ProConsult\ProConsult\obj\Debug\net8.0\ProConsult.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Blazor\ProConsult\ProConsult\obj\Debug\net8.0\ProConsult.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Blazor\ProConsult\ProConsult\obj\Debug\net8.0\ProConsult.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Blazor\ProConsult\ProConsult\obj\Debug\net8.0\ProConsult.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Blazor\ProConsult\ProConsult\obj\Debug\net8.0\ProConsult.sourcelink.json

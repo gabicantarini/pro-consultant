@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "E+m1OaD4t8iPG1aOhF+U2cTxwInisFX3DHsmMwZFT0g=",
+  "Source": "AMDLawyers",
+  "BasePath": "_content/AMDLawyers",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AMDLawyers\\wwwroot",
+      "Source": "AMDLawyers",
+      "ContentRoot": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\Blazor\\ProConsult\\AMDLawyers\\wwwroot\\",
+      "BasePath": "_content/AMDLawyers",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Gabriela\\.nuget\\packages\\mudblazor\\7.3.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Gabriela\\.nuget\\packages\\mudblazor\\7.3.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Gabriela\\.nuget\\packages\\mudblazor\\7.3.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Gabriela\\.nuget\\packages\\mudblazor\\7.3.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Gabriela\\.nuget\\packages\\mudblazor\\7.3.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Gabriela\\.nuget\\packages\\mudblazor\\7.3.0\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\Blazor\\ProConsult\\AMDLawyers\\wwwroot\\favicon.ico",
+      "SourceId": "AMDLawyers",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\Blazor\\ProConsult\\AMDLawyers\\wwwroot\\",
+      "BasePath": "_content/AMDLawyers",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}
