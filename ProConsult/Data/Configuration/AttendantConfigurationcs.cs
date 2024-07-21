@@ -4,41 +4,40 @@ using ProConsult.Models;
 
 namespace ProConsult.Data.Configuration
 {
-    public class DoctorConfiguration : IEntityTypeConfiguration<Doctor>
+    public class AttendantConfigurationcs : IEntityTypeConfiguration<Attendant>
     {
-        public void Configure(EntityTypeBuilder<Doctor> builder)
+        public void Configure(EntityTypeBuilder<Attendant> builder)
         {
-            builder.ToTable("Doctors");
+            builder.ToTable("Attendants");
 
-            builder.HasKey(d => d.Id);
+            builder.HasKey(p => p.Id);
 
-            builder.Property(d => d.Name)
+            builder.Property(p => p.Name)
                 .IsRequired(true)
                 .HasColumnType("VARCHAR(50)");
 
-            builder.Property(d => d.Document)
+            builder.Property(p => p.Document)
                 .IsRequired(true)
                 .HasColumnType("NVARCHAR(11)");
 
-            builder.Property(d => d.Mobile)
+            builder.Property(p => p.Mobile)
                 .IsRequired(true)
                 .HasColumnType("NVARCHAR(11)");
 
-            builder.Property(d => d.Crm)
+            builder.Property(p => p.Crm)
                 .IsRequired(true)
                 .HasColumnType("NVARCHAR(8)");
 
-            builder.HasIndex(d => d.Document)
+            builder.HasIndex(p => p.Document)
                 .IsUnique(true);
 
-            builder.HasIndex(d => d.Crm)
+            builder.HasIndex(p => p.Crm)
                 .IsUnique();
 
             builder.HasMany(a => a.Appointment)
                 .WithOne(d => d.Doctor)
                 .HasForeignKey(a => a.Id)
                 .OnDelete(DeleteBehavior.Restrict);
-
         }
     }
 }
