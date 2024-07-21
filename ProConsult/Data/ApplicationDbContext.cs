@@ -18,6 +18,9 @@ namespace ProConsult.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            new DbInitializer(builder).seed();
+
             base.OnModelCreating(builder);
         }
 
