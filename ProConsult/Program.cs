@@ -5,11 +5,15 @@ using MudBlazor.Services;
 using ProConsult.Components;
 using ProConsult.Components.Account;
 using ProConsult.Data;
+using ProConsult.Repositories.Appointments;
+using ProConsult.Repositories.Doctors;
+using ProConsult.Repositories.Patients;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add MudBlazor services
 builder.Services.AddMudServices();
+
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
@@ -20,6 +24,10 @@ builder.Services.AddScoped<IdentityUserAccessor>();
 builder.Services.AddScoped<IdentityRedirectManager>();
 builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
 
+builder.Services.AddScoped<IPatientRepository, PatientRepository>();
+builder.Services.AddScoped<IDoctorRepository, DoctorRepository>();
+builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
+;
 builder.Services.AddAuthentication(options =>
     {
         options.DefaultScheme = IdentityConstants.ApplicationScheme;
