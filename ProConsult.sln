@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProConsult", "ProConsult\ProConsult.csproj", "{59EAD6E1-27DD-4DDD-83D5-58D80802FA6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMDLawyers", "AMDLawyers\AMDLawyers.csproj", "{A11C02E4-2E44-44A9-BA49-FF0FB0FDC65D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AMDLawyers", "AMDLawyers\AMDLawyers.csproj", "{A11C02E4-2E44-44A9-BA49-FF0FB0FDC65D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
