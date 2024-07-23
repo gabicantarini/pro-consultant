@@ -54,7 +54,7 @@ namespace ProConsult.Components.Pages.Patients
 
         public void GoToUpdate(int id)
         {
-            NavigationManager.NavigateTo($"/pacientes/update/{id}");
+            NavigationManager.NavigateTo($"/patients/update/{id}");
         }
 
         protected override async Task OnInitializedAsync()
