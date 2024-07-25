@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using MudBlazor;
+using ProConsult.Extensions;
 using ProConsult.Models;
 using ProConsult.Repositories.Patients;
 
@@ -32,8 +33,8 @@ namespace ProConsult.Components.Pages.Patients
                     var patient = new Patient
                     {
                         Name = model.Name,
-                        Document = model.Document,
-                        Mobile = model.Mobile,
+                        Document = model.Document.OnlyCharacters(),
+                        Mobile = model.Mobile.OnlyCharacters(),
                         Mail = model.Mail,
                         BirthDate = BirthDate.Value
                     };
