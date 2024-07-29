@@ -14,21 +14,21 @@
         <MudTextField Label="Name"
                       Variant="Variant.Outlined"
                       HelperText="Mandatory Field"
-                      @bind-Value="InputModel.Nome"
-                      For="@(()=> InputModel.Nome)" />
+                      @bind-Value="InputModel.Name"
+                      For="@(()=> InputModel.Name)" />
 
         <MudTextField Label="Document"
                       Variant="Variant.Outlined"
                       HelperText="Mandatory Field"
                       @bind-Value="InputModel.Document"
                       Mask="@(new PatternMask("000.000.000-00"))"
-                      For="@(()=> InputModel.Documento)" />
+                      For="@(()=> InputModel.Document)" />
 
         <MudTextField Label="E-mail"
                       Variant="Variant.Outlined"
                       HelperText="Mandatory Field"
-                      @bind-Value="InputModel.Email"
-                      For="@(()=> InputModel.Email)" />
+                      @bind-Value="InputModel.Mail"
+                      For="@(()=> InputModel.Mail)" />
 
         <MudTextField Label="Mobile"
                       Variant="Variant.Outlined"

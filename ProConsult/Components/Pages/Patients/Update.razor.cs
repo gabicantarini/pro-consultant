@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Forms;
 using MudBlazor;
+using ProConsult.Extensions;
 using ProConsult.Models;
 using ProConsult.Repositories.Patients;
 
@@ -15,6 +17,8 @@ namespace ProConsult.Components.Pages.Patients
 
         [Inject]
         public NavigationManager NavigationManager { get; set; } = null!;
+
+        [Inject]
         public ISnackbar Snackbar { get; set; } = null!;
 
         public PatientInputModel InputModel { get; set; } = new();
@@ -40,6 +44,30 @@ namespace ProConsult.Components.Pages.Patients
             };
 
             BirthDate = CurrentPatient.BirthDate;
+        }
+
+        public async Task OnValidSubmitAsync(EditContext editContext)
+        {
+            try
+            {
+                if (editContext.Model is PatientInputModel model)
+                {
+                    CurrentPatient.Name = model.Name;
+                    CurrentPatient.Document = model.Document.OnlyCharacters();
+                    CurrentPatient.Mobile = model.Mobile.OnlyCharacters();
+                    CurrentPatient.Mail = model.Mail;
+                    CurrentPatient.BirthDate = CurrentPatient.BirthDate; //.Value;
+
+                    await repository.UpdateAsync(CurrentPatient);
+
+                    Snackbar.Add($"Paciente {CurrentPatient.Name} atualizado com sucesso!", Severity.Success);
+                    NavigationManager.NavigateTo("/patients");
+                }
+            }
+            catch (Exception ex)
+            {
+                Snackbar.Add(ex.Message, Severity.Error);
+            }
         }
 
     }
