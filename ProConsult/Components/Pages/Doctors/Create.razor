@@ -1,0 +1,72 @@
+﻿@page "/doctors/create"
+@using Microsoft.AspNetCore.Authorization
+@inherits CreatePatientPage
+
+@attribute [Authorize(Roles = "Attendant")]
+
+<MudText Typo="Typo.h3">Register Patients</MudText>
+
+<MudPaper Class="pa-8 mt-4">
+
+    <EditForm Model="@InputModel" OnValidSubmit="OnValidSubmitAsync">
+        <DataAnnotationsValidator />
+
+        <MudTextField Label="Name"
+                      Variant="Variant.Outlined"
+                      HelperText="Mandatory Field"
+                      @bind-Value="InputModel.Name"
+                      For="@(()=> InputModel.Name)" />
+
+        <MudTextField Label="Document"
+                      Variant="Variant.Outlined"
+                      HelperText="Mandatory Field"
+                      @bind-Value="InputModel.Document"
+                      Mask="@(new PatternMask("000.000.000-00"))"
+                      For="@(()=> InputModel.Document)" />
+
+        <MudTextField Label="Crm"
+                      Variant="Variant.Outlined"
+                      HelperText="Mandatory Field"
+                      @bind-Value="InputModel.Crm"
+                      Mask="@(new PatternMask("aa-000000"))"
+                      For="@(()=> InputModel.Document)" />
+
+        <MudTextField Label="Mail"
+                      Variant="Variant.Outlined"
+                      HelperText="Mandatory Field"
+                      @bind-Value="InputModel.Mail"
+                      For="@(()=> InputModel.Mail)" />
+
+        <MudTextField Label="Mobile"
+                      Variant="Variant.Outlined"
+                      HelperText="Mandatory Field"
+                      @bind-Value="InputModel.Mobile"
+                      Mask="@(new PatternMask("(00) 0 0000-0000"))"
+                      For="@(()=> InputModel.Mobile)" />
+
+        <MudSelect Label="Specialist"
+                      Variant="Variant.Outlined"
+                      @bind-Value="InputModel.Specialist"
+                      AnchorOrigin="Origin.BottomCenter"
+                      For="@(()=> InputModel.SpecialistId)" >
+
+                      @foreach (var specialist in Specialist)
+                       {
+                           <MudSelectItem Value="@specialist.Id">@specialist.Name</MudSelectItem>
+                    
+                       }
+        </MudSelect>
+
+        <MudDivider Class="m-4" />
+
+        <MudButton Variant="Variant.Filled"
+                   StartIcon="@Icons.Material.Filled.Save"
+                   Color="Color.Info"
+                   Size="Size.Large"
+                   ButtonType="ButtonType.Submit">
+            SAVE
+        </MudButton>
+
+    </EditForm>
+
+</MudPaper>
