@@ -1,6 +1,6 @@
 ﻿@page "/doctors/create"
 @using Microsoft.AspNetCore.Authorization
-@inherits CreatePatientPage
+@inherits CreateDoctorPage
 
 @attribute [Authorize(Roles = "Attendant")]
 
@@ -31,12 +31,6 @@
                       Mask="@(new PatternMask("aa-000000"))"
                       For="@(()=> InputModel.Document)" />
 
-        <MudTextField Label="Mail"
-                      Variant="Variant.Outlined"
-                      HelperText="Mandatory Field"
-                      @bind-Value="InputModel.Mail"
-                      For="@(()=> InputModel.Mail)" />
-
         <MudTextField Label="Mobile"
                       Variant="Variant.Outlined"
                       HelperText="Mandatory Field"
@@ -46,7 +40,7 @@
 
         <MudSelect Label="Specialist"
                       Variant="Variant.Outlined"
-                      @bind-Value="InputModel.Specialist"
+                      @bind-Value="InputModel.SpecialistId"
                       AnchorOrigin="Origin.BottomCenter"
                       For="@(()=> InputModel.SpecialistId)" >
 

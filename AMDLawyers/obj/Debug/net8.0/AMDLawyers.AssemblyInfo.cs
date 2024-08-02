@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AMDLawyers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7c263ff44934c1d1330fc876b05684d70dd7172")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0c00822a7466944aa8a004c6f77208b9da3d934")]
 [assembly: System.Reflection.AssemblyProductAttribute("AMDLawyers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AMDLawyers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using ProConsult.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace ProConsult.Components.Pages.Doctors
 {
@@ -21,9 +22,11 @@ namespace ProConsult.Components.Pages.Doctors
 
         [Required(ErrorMessage = "{0} deve ser fornecido")]
         [RegularExpression("([1-9][0-9]*)", ErrorMessage = "Valor selecionado é inválido")]
-        public string SpecialistId { get; set; } = null!;
+        public string SpecialistId { get; set; }
 
-        //public Specialist Specialist { get; set; } = null!;
+        public DateTime RegisterDate { get; set; } = DateTime.Now;
+
+        public Specialist Specialist { get; set; } = null!;
 
         //public ICollection<Appointment> Appointment { get; set; } = new List<Appointment>();
     }
