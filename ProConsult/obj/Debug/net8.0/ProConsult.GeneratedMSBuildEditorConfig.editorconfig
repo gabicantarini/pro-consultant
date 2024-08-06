@@ -197,6 +197,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEb2N0b3JzXENyZWF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Gabriela/Desktop/Cantarini/Gabriela/2022TI/Blazor/ProConsult/ProConsult/Components/Pages/Doctors/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEb2N0b3JzXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriela/Desktop/Cantarini/Gabriela/2022TI/Blazor/ProConsult/ProConsult/Components/Pages/Doctors/Update.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEb2N0b3JzXFVwZGF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabriela/Desktop/Cantarini/Gabriela/2022TI/Blazor/ProConsult/ProConsult/Components/Pages/Doctors/Update.razor.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEb2N0b3JzXFVwZGF0ZS5yYXpvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Gabriela/Desktop/Cantarini/Gabriela/2022TI/Blazor/ProConsult/ProConsult/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
