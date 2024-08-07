@@ -8,12 +8,12 @@
     ".NETCoreApp,Version=v8.0": {
       "AMDLawyers/1.0.0": {
         "dependencies": {
-          "Extensions.MudBlazor.StaticInput": "2.1.0",
+          "Extensions.MudBlazor.StaticInput": "2.1.1",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.7",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
-          "MudBlazor": "7.3.0"
+          "MudBlazor": "7.6.0"
         },
         "runtime": {
           "AMDLawyers.dll": {}
@@ -53,16 +53,16 @@
           }
         }
       },
-      "Extensions.MudBlazor.StaticInput/2.1.0": {
+      "Extensions.MudBlazor.StaticInput/2.1.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "8.0.7",
           "Microsoft.AspNetCore.Components.Web": "8.0.7",
-          "MudBlazor": "7.3.0"
+          "MudBlazor": "7.6.0"
         },
         "runtime": {
           "lib/net8.0/MudBlazor.StaticInput.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.0.0"
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
           }
         }
       },
@@ -797,7 +797,7 @@
           }
         }
       },
-      "MudBlazor/7.3.0": {
+      "MudBlazor/7.6.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "8.0.7",
           "Microsoft.AspNetCore.Components.Web": "8.0.7",
@@ -805,8 +805,8 @@
         },
         "runtime": {
           "lib/net8.0/MudBlazor.dll": {
-            "assemblyVersion": "7.3.0.0",
-            "fileVersion": "7.3.0.0"
+            "assemblyVersion": "7.6.0.0",
+            "fileVersion": "7.6.0.0"
           }
         }
       },
@@ -1092,12 +1092,12 @@
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
     },
-    "Extensions.MudBlazor.StaticInput/2.1.0": {
+    "Extensions.MudBlazor.StaticInput/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2AyM/d1PPg0/1M6Cr3M5cnJ1BjuWBJqgcJUGw74w6Lg/O676QlUr4ILs0s2TfEV5w+GEd097qwzIOMasB7DqUQ==",
-      "path": "extensions.mudblazor.staticinput/2.1.0",
-      "hashPath": "extensions.mudblazor.staticinput.2.1.0.nupkg.sha512"
+      "sha512": "sha512-hoYNSJ8wtVo68912HJ8EQzU4vupq8WbqA4ienERu3QKanGhR96MFSAw2fl7zMk7zCxHBSxrEzherC7/wHJl5uA==",
+      "path": "extensions.mudblazor.staticinput/2.1.1",
+      "hashPath": "extensions.mudblazor.staticinput.2.1.1.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -1484,12 +1484,12 @@
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
     },
-    "MudBlazor/7.3.0": {
+    "MudBlazor/7.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yLZbuZUQaGGCpEbj0eebLIxtvlLFlWug7oI68ecX/QbCKr+474q6qUN5sCstMMDYkdnzExk3puEa+Hif3rLDEQ==",
-      "path": "mudblazor/7.3.0",
-      "hashPath": "mudblazor.7.3.0.nupkg.sha512"
+      "sha512": "sha512-6UVQ7TvIw/czNyjmqdUGYS+Fk3PJTvbhFy4/agqm2pzwam31lYJbZXPYr5w7CG4aw9QTgj02ajd6xTZaeROiiA==",
+      "path": "mudblazor/7.6.0",
+      "hashPath": "mudblazor.7.6.0.nupkg.sha512"
     },
     "System.CodeDom/4.4.0": {
       "type": "package",

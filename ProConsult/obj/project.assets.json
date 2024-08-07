@@ -46,18 +46,24 @@
           }
         }
       },
-      "Extensions.MudBlazor.StaticInput/2.1.0": {
+      "Extensions.MudBlazor.StaticInput/2.1.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "8.0.7",
           "Microsoft.AspNetCore.Components.Web": "8.0.7",
-          "MudBlazor": "7.3.0"
+          "MudBlazor": "7.4.0"
         },
         "compile": {
           "lib/net8.0/MudBlazor.StaticInput.dll": {}
         },
         "runtime": {
           "lib/net8.0/MudBlazor.StaticInput.dll": {}
+        },
+        "build": {
+          "buildTransitive/Extensions.MudBlazor.StaticInput.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Extensions.MudBlazor.StaticInput.props": {}
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -1141,7 +1147,7 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
-      "MudBlazor/7.3.0": {
+      "MudBlazor/7.6.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "8.0.6",
@@ -1824,18 +1830,23 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "Extensions.MudBlazor.StaticInput/2.1.0": {
-      "sha512": "2AyM/d1PPg0/1M6Cr3M5cnJ1BjuWBJqgcJUGw74w6Lg/O676QlUr4ILs0s2TfEV5w+GEd097qwzIOMasB7DqUQ==",
+    "Extensions.MudBlazor.StaticInput/2.1.1": {
+      "sha512": "hoYNSJ8wtVo68912HJ8EQzU4vupq8WbqA4ienERu3QKanGhR96MFSAw2fl7zMk7zCxHBSxrEzherC7/wHJl5uA==",
       "type": "package",
-      "path": "extensions.mudblazor.staticinput/2.1.0",
+      "path": "extensions.mudblazor.staticinput/2.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "extensions.mudblazor.staticinput.2.1.0.nupkg.sha512",
+        "build/Extensions.MudBlazor.StaticInput.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Extensions.MudBlazor.StaticInput.props",
+        "buildTransitive/Extensions.MudBlazor.StaticInput.props",
+        "extensions.mudblazor.staticinput.2.1.1.nupkg.sha512",
         "extensions.mudblazor.staticinput.nuspec",
         "lib/net8.0/MudBlazor.StaticInput.dll",
-        "nuget.png"
+        "nuget.png",
+        "staticwebassets/NavigationObserver.js"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -3472,10 +3483,10 @@
         "mono.texttemplating.nuspec"
       ]
     },
-    "MudBlazor/7.3.0": {
-      "sha512": "yLZbuZUQaGGCpEbj0eebLIxtvlLFlWug7oI68ecX/QbCKr+474q6qUN5sCstMMDYkdnzExk3puEa+Hif3rLDEQ==",
+    "MudBlazor/7.6.0": {
+      "sha512": "6UVQ7TvIw/czNyjmqdUGYS+Fk3PJTvbhFy4/agqm2pzwam31lYJbZXPYr5w7CG4aw9QTgj02ajd6xTZaeROiiA==",
       "type": "package",
-      "path": "mudblazor/7.3.0",
+      "path": "mudblazor/7.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3492,7 +3503,7 @@
         "lib/net7.0/MudBlazor.xml",
         "lib/net8.0/MudBlazor.dll",
         "lib/net8.0/MudBlazor.xml",
-        "mudblazor.7.3.0.nupkg.sha512",
+        "mudblazor.7.6.0.nupkg.sha512",
         "mudblazor.nuspec",
         "staticwebassets/MudBlazor.min.css",
         "staticwebassets/MudBlazor.min.js"

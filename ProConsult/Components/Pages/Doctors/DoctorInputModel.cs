@@ -27,7 +27,5 @@ namespace ProConsult.Components.Pages.Doctors
         public DateTime RegisterDate { get; set; } = DateTime.Now;
 
         public Specialist Specialist { get; set; } = null!;
-
-        //public ICollection<Appointment> Appointment { get; set; } = new List<Appointment>();
     }
 }

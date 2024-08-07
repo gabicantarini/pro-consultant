@@ -8,6 +8,7 @@ using ProConsult.Data;
 using ProConsult.Repositories.Appointments;
 using ProConsult.Repositories.Doctors;
 using ProConsult.Repositories.Patients;
+using ProConsult.Repositories.Specialities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +28,7 @@ builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuth
 builder.Services.AddScoped<IPatientRepository, PatientRepository>();
 builder.Services.AddScoped<IDoctorRepository, DoctorRepository>();
 builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
+builder.Services.AddScoped<ISpecialistRepository, SpecialistRepository>();
 ;
 builder.Services.AddAuthentication(options =>
     {
