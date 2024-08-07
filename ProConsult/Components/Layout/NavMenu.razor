@@ -6,7 +6,7 @@
     <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
     <MudNavLink Href="patients" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.People">Patients</MudNavLink>
     <MudNavLink Href="doctors" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.MedicalServices">Doctors</MudNavLink>
-    <MudNavLink Href="auth" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Lock">Auth Required</MudNavLink>
+    <MudNavLink Href="appointments" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.ViewAgenda">Appointments</MudNavLink>
     <AuthorizeView>
         <Authorized>
             <MudNavLink Href="Account/Manage" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Person">@context.User.Identity?.Name</MudNavLink>

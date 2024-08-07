@@ -185,6 +185,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Gabriela/Desktop/Cantarini/Gabriela/2022TI/Blazor/ProConsult/ProConsult/Components/Pages/Appointments/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBcHBvaW50bWVudHNcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Gabriela/Desktop/Cantarini/Gabriela/2022TI/Blazor/ProConsult/ProConsult/Components/Pages/Auth.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
