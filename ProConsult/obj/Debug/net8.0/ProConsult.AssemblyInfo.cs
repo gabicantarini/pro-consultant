@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProConsult")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bf515f1ba265114bcfbcb733cd6d3ede1d80efb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bc659d8b87ae225150bfff0c8975c8547e21b87")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProConsult")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProConsult")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
